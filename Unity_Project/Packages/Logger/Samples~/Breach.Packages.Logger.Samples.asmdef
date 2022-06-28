@@ -1,0 +1,17 @@
+{
+    "name": "Breach.Packages.Logger.Samples",
+    "rootNamespace": "Breach.Packages.Logger.Samples",
+    "references": [
+        "Breach.Packages.Logger",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

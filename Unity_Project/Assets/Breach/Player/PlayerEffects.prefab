@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6911869750460062112
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5046781616938265553}
+  - component: {fileID: 2715414120157426866}
+  m_Layer: 0
+  m_Name: PlayerEffects
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5046781616938265553
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6911869750460062112}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2715414120157426866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6911869750460062112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e9c27b7cb0a79a4683ec9b024f8215e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GraphicsManager: {fileID: 0}
+  UnderwaterProfile: {fileID: 11400000, guid: a60335a8c6c05084490c23cf78dabbb7, type: 2}
+  UnderwaterVolume: {fileID: 0}
+  FadeDistance: 0.5
+  Offset: 0.4
+  PlayerBody: {fileID: 0}
+  StrideLength: 0.75
+  RunningTimeBetweenSteps: 0.5
+  TerrainFootstepsVolume: 1.2
+  WaterFootstepsVolume: 0.5
+  WalkingTerrainSounds:
+  - {fileID: 8300000, guid: 8173aa8ab41494e33a18fffb3f9fe6e1, type: 3}
+  - {fileID: 8300000, guid: e781962a83ffe41a387fc9093fbdb3a4, type: 3}
+  - {fileID: 8300000, guid: e9677f87f1bdd478ab08ee1cfa5c3c5a, type: 3}
+  - {fileID: 8300000, guid: 79b027a6f95d34a618237fa378c85e3e, type: 3}
+  - {fileID: 8300000, guid: e1978cdc899764143bd9dcb055489486, type: 3}
+  - {fileID: 8300000, guid: f934aac9ae4954442b60cb7b6c10c5a5, type: 3}
+  - {fileID: 8300000, guid: fdc2fc8bbd4a54fc7b68f3af72b9fe6d, type: 3}
+  - {fileID: 8300000, guid: eb24bb4624b4f4e658e0b27791a13cc6, type: 3}
+  - {fileID: 8300000, guid: ad197d72b87cc4f1e898a81dc6894323, type: 3}
+  - {fileID: 8300000, guid: c9287c2425d834f84bf7f3244f84e094, type: 3}
+  - {fileID: 8300000, guid: c5e4ee1ee19c847bca481288fdc80e16, type: 3}
+  - {fileID: 8300000, guid: 0572f0af345e8435bb07f41771e59b48, type: 3}
+  - {fileID: 8300000, guid: 01cf723e1bb4c4d3c9bdbc3a91d5265d, type: 3}
+  - {fileID: 8300000, guid: f0257e50801c74e01a83959c9013a062, type: 3}
+  - {fileID: 8300000, guid: b40a7172e20d849b89e4e1af021e751a, type: 3}
+  - {fileID: 8300000, guid: c6501b0663ff943078227c3c17866034, type: 3}
+  - {fileID: 8300000, guid: 085dc4c494cfe4c4c8df1c4192b19793, type: 3}
+  - {fileID: 8300000, guid: 5125ef6a96d484a5593a67c2b6b82778, type: 3}
+  - {fileID: 8300000, guid: 8d18208f9fd704e418374afa9551b054, type: 3}
+  - {fileID: 8300000, guid: cd1e35d6592a14d4185f0e6d95e6c0d3, type: 3}
+  - {fileID: 8300000, guid: ad121e3b0b2bb4101b14a7d170c56e40, type: 3}
+  - {fileID: 8300000, guid: e6f4912dc21b44d49a817963068a22c9, type: 3}
+  - {fileID: 8300000, guid: 4592d6e001c0f49d4826678e1bd6f06a, type: 3}
+  - {fileID: 8300000, guid: 1eb02d0f2cd644f209a6c120549683cb, type: 3}
+  - {fileID: 8300000, guid: b39e6fbfed6574c01bf91fae2cd68a9c, type: 3}
+  - {fileID: 8300000, guid: d19bd346b1ef549919293eb5045e8ee8, type: 3}
+  - {fileID: 8300000, guid: b567f4c3271604a9fa596490c54b5031, type: 3}
+  - {fileID: 8300000, guid: f53fe02f37d61497fada69c4d094174f, type: 3}
+  - {fileID: 8300000, guid: 5cc85d8c6364d4ac086f1133081c50da, type: 3}
+  - {fileID: 8300000, guid: f64ee560ce9b04387a4b5260c76ed498, type: 3}
+  RunningTerrainSounds:
+  - {fileID: 8300000, guid: e65dcf5a5851a41558b375596c666297, type: 3}
+  - {fileID: 8300000, guid: 4c252338c4f3443c3812a48906c1d1fc, type: 3}
+  - {fileID: 8300000, guid: 066d6d9639d3340a3a03ca031a380abc, type: 3}
+  - {fileID: 8300000, guid: 1eca43e5fc1004d8f9dad5db3163f0d1, type: 3}
+  - {fileID: 8300000, guid: 591ffa407c450493588f3459e306e07e, type: 3}
+  - {fileID: 8300000, guid: 8e07d37b471df46c6a60c7f0472db474, type: 3}
+  - {fileID: 8300000, guid: 1c82207ecd2a242fe8be313460067803, type: 3}
+  - {fileID: 8300000, guid: 329d82ffb7c834587b93219bd57ea7f8, type: 3}
+  - {fileID: 8300000, guid: dcb74e31b3b744e46be6e4634274ac3e, type: 3}
+  - {fileID: 8300000, guid: cdf2c104aa05d459e847f84f78555bab, type: 3}
+  - {fileID: 8300000, guid: 095670bb712694bfaaa102a37ba2d723, type: 3}
+  - {fileID: 8300000, guid: e779bf90951f446e0a62600d62a7448e, type: 3}
+  - {fileID: 8300000, guid: 1b153409aa07142bfb0c232f11bab9e2, type: 3}
+  - {fileID: 8300000, guid: 3129a645651214d7eada14ebe5449da6, type: 3}
+  - {fileID: 8300000, guid: 14515dd1da0d24e91b105cb87dbfad83, type: 3}
+  - {fileID: 8300000, guid: f5cbfafeb3dc64ddb812234dca02b455, type: 3}
+  - {fileID: 8300000, guid: 00dc253d2cf0b4099a9214defd50da36, type: 3}
+  - {fileID: 8300000, guid: 33f5d724affe74908a138a5ad412fd81, type: 3}
+  - {fileID: 8300000, guid: e220851e11c0b4486989fdf9d659dc43, type: 3}
+  - {fileID: 8300000, guid: be13fac33292e4ad7b75975784b7080f, type: 3}
+  - {fileID: 8300000, guid: f0aa47de58acf4904add3c209f34c6c6, type: 3}
+  - {fileID: 8300000, guid: 64e6f7b3117824f85b427f6f46b3fc1e, type: 3}
+  - {fileID: 8300000, guid: 5fa1c888398704438a3a1ab3515c26dd, type: 3}
+  - {fileID: 8300000, guid: b5bf506de43b448248ce0a923198784b, type: 3}
+  - {fileID: 8300000, guid: 0efb944151f1d4825b2a4b1db48d3004, type: 3}
+  - {fileID: 8300000, guid: 0044f3fcdf06042239cd32e658c20985, type: 3}
+  - {fileID: 8300000, guid: 2d53133fed31349398a1a467b36ac8de, type: 3}
+  WalkingWaterSounds:
+  - {fileID: 8300000, guid: 3b6a862f664a842859e0f4e95b06c87c, type: 3}
+  - {fileID: 8300000, guid: 547ec26d1d0244544a8d2660d02c5a42, type: 3}
+  - {fileID: 8300000, guid: 3006bb848e2e741fe8756f6ce0d481f2, type: 3}
+  - {fileID: 8300000, guid: 7c41d0fa020404d43a0929cdab24cddf, type: 3}
+  - {fileID: 8300000, guid: eddfccc99fcfa4297906cb847eac6792, type: 3}
+  - {fileID: 8300000, guid: 937a6b1d27f8a4892ae2546aeaf7f37a, type: 3}
+  - {fileID: 8300000, guid: 719931bc4a2514683a21f69e69a5dd2e, type: 3}
+  - {fileID: 8300000, guid: 09e2f3f67d40f441bbed15aaac7b4311, type: 3}
+  - {fileID: 8300000, guid: e3aceb6a95c434c38a0586acdc2181e0, type: 3}
+  - {fileID: 8300000, guid: 75e28bb142b174f0290441fb82e1b63b, type: 3}
+  - {fileID: 8300000, guid: 9b2de52f2524e4cae9800363b228c865, type: 3}
+  - {fileID: 8300000, guid: ea8d7dafa983842bb9e66c75e8f416c6, type: 3}
+  - {fileID: 8300000, guid: 1e77c6df074914cdab7b33ad1b87115a, type: 3}
+  RunningWaterSounds:
+  - {fileID: 8300000, guid: 7b8ecc75e47784db28b45f8a25d36daf, type: 3}
+  - {fileID: 8300000, guid: e7afe5da0d2a841a4a6b497e8cca405b, type: 3}
+  - {fileID: 8300000, guid: 4fe7eef365a0c4978b5573a64837ca52, type: 3}
+  - {fileID: 8300000, guid: bfb4bf5a8343d44049c5979ab797efa3, type: 3}
+  - {fileID: 8300000, guid: 09dd8b9203e57447c9ba76d5e5b45823, type: 3}
+  - {fileID: 8300000, guid: ab0a73c78235e46d289e7bb3a8ac3782, type: 3}
+  - {fileID: 8300000, guid: 741e0073482bb46efbcc0f7bbf496e5b, type: 3}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68860ce04d1733f4cbb7285b6384d5ee, type: 3}
+  m_Name: MyCustomLogger
+  m_EditorClassIdentifier: 
+  logLevel: 0
+  colorSchemeTemplate:
+    classColor: {r: 0.32039872, g: 0.9056604, b: 0.4259754, a: 0}
+    methodColor: {r: 0.40396938, g: 0.9622642, b: 0.77676696, a: 0}
+    infoColor: {r: 0.650648, g: 0.6509434, b: 0.6478729, a: 0}
+    warningColor: {r: 0.8301887, g: 0.7876402, b: 0.37201852, a: 0}
+    errorColor: {r: 0.8773585, g: 0.48420256, b: 0.48420256, a: 0}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Breach/Scenes/Lobby.unity
+    guid: 86205000644b9404a816349b0f348387
+  - enabled: 0
+    path: Assets/Breach/Scenes/MainMenu.unity
+    guid: 79184ad920dbec448a1f6366bcbb111f
+  - enabled: 0
+    path: Assets/Breach/Scenes/DynamicScenes/Hunnedalen_DSK.unity
+    guid: 403f3e319a8610c46ae3038cec21013c
+  - enabled: 1
+    path: Assets/Breach/Scenes/VRMenu.unity
+    guid: b141f846c8a27074a87b51787ca52a47
+  - enabled: 1
+    path: Assets/Breach/Scenes/DynamicScenes/Hunnedalen_VR.unity
+    guid: d250715de18c9034490711cc5f8ba34f
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: d46c568445a6c334c8e83aff51902cc0, type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: 5f3873e4f3e8ce240b52da0410a13ab9, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 021ad1d743a15dd41ac7541c8c5879b4, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: dd6d314664082b14eb4cf8c7f39ab56a, type: 2}

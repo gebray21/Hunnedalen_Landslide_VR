@@ -1,0 +1,48 @@
+{
+    "name": "com.breach.logger",
+    "version": "0.0.9",
+    "displayName": "Logger",
+    "description": "Logger contains a Log class with the classic debug methods. The Logger can also be customized for your own needs.",
+    "author": {
+        "name": "Breach AS",
+        "email": "contact@breachvr.com",
+        "url": "https://breachvr.com/"
+    },
+    "samples": [
+        {
+            "displayName": "Unity Console Logger",
+            "description": "A prefab you can drag into your scene to start logging in the Unity console.",
+            "path": "Samples~/UnityConsoleLogger"
+        },
+        {
+            "displayName": "Custom Logger Example",
+            "description": "An implementation of how a custom logger can be set up.",
+            "path": "Samples~/CustomLogger"
+        },
+        {
+            "displayName": "Empty Custom Logger",
+            "description": "The place where YOU can get started using custom loggers.",
+            "path": "Samples~/EmptyCustom"
+        },
+        {
+            "displayName": "LogAttributes: Classes",
+            "description": "Showcases the use of LogAttributes on Classes",
+            "path": "Samples~/LogAttributes/LogAttributeClasses"
+        },
+        {
+            "displayName": "LogAttributes: Methods",
+            "description": "Showcases the use of LogAttributes on Methods",
+            "path": "Samples~/LogAttributes/LogAttributeMethods"
+        },
+        {
+            "displayName": "LogAttributes: Classes & Methods",
+            "description": "Showcases how to combine LogAttributes on Classes and Methods",
+            "path": "Samples~/LogAttributes/LogAttributeCombination"
+        }
+    ],
+    "keywords": [
+        "debug",
+        "log",
+        "logger"
+    ]
+}

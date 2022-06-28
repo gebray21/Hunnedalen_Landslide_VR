@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8838931889760117401
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: water
+  m_Shader: {fileID: -6465566751694194690, guid: 0692667bbff511e4ebc73ef7bbe1efd8,
+    type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - <noninit>:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: db2c88ab5e0f11a4cb6a99b110251131, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ColorControl:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CubeTex:
+        m_Texture: {fileID: 8900000, guid: 8bf333b73a1e22b46b342c6570d08667, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FoamTex:
+        m_Texture: {fileID: 2800000, guid: 0ecb8fcaeda4c8646836686a9ea45d1e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Fresnel:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HeightTex:
+        m_Texture: {fileID: 2800000, guid: 9613277e20d37f74d9b8eb7deaf69413, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: cd1a2f48a8cb8d242b69910609331bed, type: 3}
+        m_Scale: {x: 3.53, y: 2.47}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectiveColor:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RefractionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SurfaceTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SurfaceTextureNM:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TessellationHeightmap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TessellationNormalmap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - <noninit>: 0
+    - Vector1_0ed04f49ff874263ab000f3c318f7c8c: 0
+    - Vector1_61e97d5d33b049aabd1cb8399e803bde: 0
+    - Vector1_68c638cdec714a3c80f86b7c82510246: 0
+    - _Ambient: 0.743
+    - _ColorTextureOverlay: 0.968
+    - _Culling: 2
+    - _Displacement: 0.05
+    - _DisplacementTiling: 0.37
+    - _FresnelPower: 0.1
+    - _InvFade: 2.03
+    - _InvFadeFoam: 2.33
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _ReflDistort: 0.44
+    - _RefrDistort: 0.4
+    - _Refractivity: 53
+    - _Shininess: 1
+    - _Speed: 0.8
+    - _SurfaceAlpha: 0.98
+    - _SurfaceAlphaBackside: 0.5
+    - _SurfaceAlphaFadeDistance: 0.5
+    - _SurfaceAnimationSpeed: 1
+    - _SurfaceFlowSpeed: 1
+    - _SurfaceFogFadeDistance: 5
+    - _SurfaceOcclusion: 0.5
+    - _SurfaceRefraction: 0.1
+    - _SurfaceSmoothness: 1
+    - _SurfaceSpecular: 0.005
+    - _SurfaceTextureCoeff: 3
+    - _SurfaceTextureScale: 1
+    - _TessellationAnimationSpeed: 1
+    - _TessellationDistance: 50
+    - _TessellationFlowSpeed: 1
+    - _TessellationHeightmapStrength: 0.5
+    - _TessellationRate: 10
+    - _TessellationTextureScale: 0.1
+    - _WaveScale: 0.0747
+    m_Colors:
+    - <noninit>: {r: 0, g: -0.0094669685, b: 0, a: -0.009466909}
+    - Color_43126e78146a4fd39b70369440038ce4: {r: 0, g: 0.39326167, b: 0.7830188,
+        a: 0}
+    - Color_9aeeb50e5d4e4fecb5745ebc8fe073b6: {r: 0, g: 0, b: 0, a: 0}
+    - WaveSpeed: {r: 19, g: 9, b: -16, a: -7}
+    - _ColorBase: {r: 0.07525808, g: 0.12395867, b: 0.13207546, a: 1}
+    - _HorizonColor: {r: 0.17199996, g: 0.46299994, b: 0.43499997, a: 1}
+    - _RefrColor: {r: 0.3411765, g: 0.92156863, b: 0.898164, a: 1}
+    - _SpecColor: {r: 0.9191176, g: 0.7974697, b: 0.7974697, a: 0.5}
+    - _TintColor: {r: 0.23110235, g: 0.7735849, b: 0.45516944, a: 0.5}
+    - _WorldLightDir: {r: 0, g: 0, b: 0, a: 1}
+    - _horizonColor: {r: 0.17199996, g: 0.46299994, b: 0.43499997, a: 0}
+  m_BuildTextureStacks: []
+--- !u!1002 &2100001
+EditorExtensionImpl:
+  serializedVersion: 6

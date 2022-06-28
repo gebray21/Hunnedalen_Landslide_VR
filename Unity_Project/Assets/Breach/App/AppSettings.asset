@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2748c613caa28ce479399d9f6eee1264, type: 3}
+  m_Name: AppSettings
+  m_EditorClassIdentifier: 
+  GameModeSelector: 1
+  PlayerAffectedByWater: 1
+  XRPlayer: {fileID: 1571256370707287559, guid: f37d278a14c53f247a142e593abd5c7d, type: 3}
+  EditorPlayer: {fileID: 2834594082593712756, guid: b7994cb74e6b7c742ae3a929f29f47b6, type: 3}
+  LobbyScene: Lobby
+  SceneData: {fileID: 11400000, guid: fc21ee137ddf13b438edaeb9fe1c7fdf, type: 2}
+  LobbyMenu: {fileID: 6991298923376074502, guid: 8e0f2f1355802e945a6cbf7857e2fcb9, type: 3}
+  SimulationUIPrefab: {fileID: 2772560487229577155, guid: be0999333c70b4543b2ff493e0fd2562, type: 3}
