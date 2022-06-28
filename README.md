@@ -8,19 +8,10 @@ Folder 2 Already built Unity
 
 Description of the project:
 * This project provides a VR (Virtual Reality)-compatible interactive 3D experience
-	of 2 natural disaster scenarios. These 2 scenes are available in the same
-	application, and can be switched via a main menu. They can be experienced
-	with either a VR headset or through a Desktop window.
-* The two scenes include: Scene 1) An earthquake that causes large buildings to 
-	collapse in a city, and Scene 2) A hurricane that causes homes to break apart, 
-	with debris flying in the air, in a suburban neighborhood. 
-* The simulated data for Scene 1) was prepared in the software "Extreme Loading for 
-	Structures," to prepare a series of 3D .stl models representing a building 
-	for each time frame of collapse. The simulated data for Scene 2) includes 
-	location data for airborne debris, calculated in Mathworks Matlab. The output 
-	from these are used in the game engine Unity3D to render the interactive 
-	environment. This project includes the compiled version and source files of 
-	the Unity3D portion of the project.
+	of a debris flow in Hunnedalen, Norway. These 2 scenes are available in two different menues. 
+The VR version is expreinced via VR headset while the desktop version through desktop window. T
+
+* The simulated data for both Scenes was derived from 
 * The intent of this NSF grant-funded project was to help better convey the impact of 
 	natural disasters to a lay audience (to individuals that don't have a 
 	technical background to understand raw data or spreadsheets), by visualizing
