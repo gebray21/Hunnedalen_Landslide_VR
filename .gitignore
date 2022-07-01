@@ -55,7 +55,7 @@ ExportedObj/
 *.pdb.meta
 *.mdb.meta
 #buld largeresults
-*.resS
+#*.resS
 # Unity3D generated file on crash reports
 sysinfo.txt
 
