@@ -3,8 +3,8 @@
 Realistic Visualization of Debris flow type landslides through Virtual Reality
 
 This project originally included 2 folders:
-Folder 1: Unity projects ready to be used as source code 
-Folder 2 Already built Unity 
+The first folder, Demo, is an already built unity project and the second folder, Unity_Project, contains all source codes.  
+
 
 Description of the project:
 * This project provides a VR (Virtual Reality)-compatible interactive 3D experience
@@ -19,6 +19,13 @@ it from a first-person perspective in a VR simulated environment. The Unity3D
 project files (used to render the Desktop and VR modes of the 
 experience) are provided to allow users to try the project on their own machine, and to see how the file structure to understand how we rendered 
 these complex and high-polygon scenes in real-time, from scientific software that normally has no pipeline for game or film software.
+
+How it was done:
+
+*First, we need a computer with Unity installed to develop the framework. We used Windows, but Universal Windows platform, macOS and Linux can also be used, according to Unity manual. 
+*Second, any Unity project can be built to be played in Windows, macOS, Linux, WebGL, Android, iOS and many XR (VR) platforms such as Oculus Quest 2. We tested our framework in Windows 10 and Oculus quest 2 and it worked well. The only challenge we expect in the mobile platforms is the size of our project. We will share our project as an open source and readers can test it for whatever platform they have.” 
+
+
 
 How to use:
 * File 1) VR_Demos
