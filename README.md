@@ -22,8 +22,8 @@ these complex and high-polygon scenes in real-time, from scientific software tha
 
 How it was done:
 
-*First, we need a computer with Unity installed to develop the framework. We used Windows, but Universal Windows platform, macOS and Linux can also be used, according to Unity manual. 
-*Second, any Unity project can be built to be played in Windows, macOS, Linux, WebGL, Android, iOS and many XR (VR) platforms such as Oculus Quest 2. We tested our framework in Windows 10 and Oculus quest 2 and it worked well. The only challenge we expect in the mobile platforms is the size of our project. We will share our project as an open source and readers can test it for whatever platform they have.” 
+* First, we need a computer with Unity installed to develop the framework. We used Windows, but Universal Windows platform, macOS and Linux can also be used, according to Unity manual. 
+* Second, any Unity project can be built to be played in Windows, macOS, Linux, WebGL, Android, iOS and many XR (VR) platforms such as Oculus Quest 2. We tested our framework in Windows 10 and Oculus quest 2 and it worked well. The only challenge we expect in the mobile platforms is the size of our project. We will share our project as an open source and readers can test it for whatever platform they have.” 
 
 
 
