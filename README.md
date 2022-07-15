@@ -28,13 +28,13 @@ How it was done:
 
 
 How to use:
-* File 1) VR_Demos
+* File 1) Demos
 	* This is the Windows 10 executable of the interactive game. To use, download 
 		and unzip all contents (including subfolders) to a folder, and click 
 		on "Hunnedalen_VR.exe" to open for the VR version and "Hunnedalen_DSK.exe" for the desktop version. In menu that appears, use mouse and VR controllers(desktop and VR versions respectively) 
 		to choose which graphics quality to apply. Use mouse and keyboard with on-screen 
 		instructions to control "Desktop" version of scene, and use Oculus Queest 2 
-		controllers with on-controller prompts to control "VR" version of scene. 
+		controllers with right controller for moving and left controller for turning around.  
 	* Minimum system requirements for VR mode include: 
 		CPU: Intel i5 8th gen or better, 
 		GPU: Nvidia GTX 1060 GPU or better, 
